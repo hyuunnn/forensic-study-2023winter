@@ -135,6 +135,7 @@ class LnkParser:
         # print("COMMAND_LINE_ARGUMENTS : {}".format(COMMAND_LINE_ARGUMENTS.replace(b"\x00", b"")))
 
 # TODO: 잔버그 고치기
+# 디렉토리에 있는 lnk 파일들 왼쪽, 오른쪽은 각 lnk 파일 파싱 결과 출력, GUI
 if __name__ == "__main__":
     lnk = LnkParser()
     dir_path = "C:\\Users\\hyuunnnn\\Desktop\\test"
