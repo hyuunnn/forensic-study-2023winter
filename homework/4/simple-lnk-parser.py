@@ -138,7 +138,7 @@ class LnkParser:
 # 디렉토리에 있는 lnk 파일들 왼쪽, 오른쪽은 각 lnk 파일 파싱 결과 출력, GUI
 if __name__ == "__main__":
     lnk = LnkParser()
-    dir_path = "C:\\Users\\hyuunnnn\\Desktop\\test"
+    dir_path = "C:\\Users\\hyuunnnn\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
 
     file_list = os.listdir(dir_path)
 
